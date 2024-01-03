@@ -23,12 +23,12 @@ const get = require('readline-sync')
       let numbers = Math.floor(Math.random() * 1000);
       let userName = randomName.first().toString() + randomName.last().toString() + numbers 
       const email = "gmail.com"
-      const passWord = "RJDxSGB123ok"
+      const passWord = "FLXteamSGB"
       await page.goto('https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp')
       
       await page.waitForTimeout(5000)
       console.log("[*] Google Mail Automation Registration Account");
-      console.log("[*] Author: RJD");
+      console.log("[*] Author: FLX");
       await page.setViewport({ width: 1366, height: 695 })
       console.log("[*] Trying to Fill Identity (with random identity)");
 
